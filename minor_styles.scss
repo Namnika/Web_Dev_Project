@@ -1,0 +1,58 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1644301467387-d85f3ca1e6a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWFuJTIwZmxhZyUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-position: center;
+}
+header {
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 20px 40px;
+  background: linear-gradient(0.25turn, #dba33b, #ebf8e1, #bcf235);
+  font-size: 30px;
+  color: slategrey;
+  font-family: "Oswald", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  height: calc(100% - 50px);
+  padding: 20px 40px;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(0.25turn, #dba33b, #ebf8e1, #bcf235);
+  font-size: medium;
+  font-weight: bold;
+}
+
+.fa-archway {
+  padding: 0 15px;
+  color: burlywood;
+}
+
+.flex-container {
+  display: flexbox;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  :hover {
+    color: gray;
+  }
+}
+
+.card-body {
+  font-size: smaller;
+  font-family: "Roboto Serif", serif;
+  justify-content: center;
+  justify-items: flex-start;
+  word-wrap: normal;
+  writing-mode: sideways-lr;
+}
